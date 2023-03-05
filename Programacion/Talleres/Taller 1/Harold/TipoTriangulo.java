@@ -2,9 +2,6 @@ import java.util.Scanner; //Esto es un paquete llamado Util.Scanner, el cual se 
 
 public class TipoTriangulo { //Esto es una clase publica llamada TipoTriangulo
 
-    public static void main(String[] args) {
-        metPrincipalTipoTriangulo();
-    }
     public void metPrincipalTipoTriangulo() { //Esto es un metodo público que retorna un valor vacio que se llama metPrincipalTipoTriangulo
         Scanner objEntrada = new Scanner(System.in); //Se llama a la libreria Scanner, se agrega un nombe y se inicializa
         double angA = 0, // Esto son variables tipos dobles
