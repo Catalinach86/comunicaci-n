@@ -11,4 +11,3 @@ let patas = Number(prompt("Digite el total de patas"));
 let animales = Number(prompt("Digite la cantidad de animales"));
 
 conteoPatas(patas, animales)
-
