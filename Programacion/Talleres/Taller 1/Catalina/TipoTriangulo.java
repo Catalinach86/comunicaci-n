@@ -20,10 +20,10 @@ public class TipoTriangulo { //Esto es una clase publica llamada TipoTriangulo
         switch (menu) { //se ejecuta según la condicion o caso
             case 1:
                 System.out.print("\nDigite el ángulo A: "); //se solicita digitar el "angulo A"
-                angA = objEntrada.nextDouble();
-                System.out.print("Digite el ángulo B: ");
-                angB = objEntrada.nextDouble();
-                angC = 180 - (angA + angB);
+                angA = objEntrada.nextDouble(); //la respuesta se gusada en la variable 
+                System.out.print("Digite el ángulo B: "); // se solicita digitar el "angulo B"
+                angB = objEntrada.nextDouble(); // se guarda la respuesta en la variable
+                angC = 180 - (angA + angB); 
                 sumaAng = angA + angB + angC;
                 if (sumaAng == 180 && angC > 0) {
                     if (angA == 90 || angB == 90 || angC == 90) {
